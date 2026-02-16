@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Envs (we reuse conda; keep these ignored anyway)
+.venv/
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# Builds
+dist/
+build/
+*.egg-info/
+
+# VS Code local stuff (keep settings in repo, ignore workspace files)
+*.code-workspace
+
+# OS
+.DS_Store
